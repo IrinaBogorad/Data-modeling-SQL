@@ -1,8 +1,8 @@
 # Data-modeling-SQL
 Python, PostgresSQL / Data modeling -snowflake
 
-We have dataset Sorenson_firm.csv. It`s presents product sales of companies by locations, years and intagrations.  
-To build a model we are going to use Kimball data modeling
+We have dataset Sorenson_firm.csv. It presents product sales of companies by locations, years and intagrations.  
+To build a model we are going to use Kimball bulets data modeling
 1. Define the data process
 2. Declare the grain
 3. Identify the dimension
@@ -10,7 +10,7 @@ To build a model we are going to use Kimball data modeling
 
    Our goal is to built a model to analize sales metrics. Therefore our main table is-
    - workstation_sales
-   And from this point we are making others tables
+   And from this point we are making other tables
   -years
   -integrations
   -product_offerings
